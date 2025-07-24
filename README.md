@@ -17,7 +17,6 @@ This project showcases:
 - Azure OpenAI resource with a deployed model
 - Azure OpenAI API key and endpoint
 
-## Project Structure
 
 ## Dependencies
 
@@ -61,10 +60,10 @@ The application will:
 
 ### Example Interaction
 
-Running in Development environment 
-Ask me anything – I'm all ears!................? 
-What is the capital of France? 
-The capital of France is Paris. It's the largest city in France and serves as the country's political, economic, and cultural center.
+- Running in Development environment 
+- Ask me anything – I'm all ears!................? 
+- What is the capital of France? 
+- The capital of France is Paris. It's the largest city in France and serves as the country's political, economic, and cultural center.
 
 ## Development
 
@@ -88,12 +87,8 @@ The capital of France is Paris. It's the largest city in France and serves as th
 4. Test thoroughly
 5. Submit a pull request
 
-## License
-
-[Add your license information here]
 
 ## Related Resources
 
 - [Semantic Kernel Documentation](https://learn.microsoft.com/en-us/semantic-kernel/)
-- [Azure OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
 - [.NET Configuration](https://docs.microsoft.com/en-us/dotnet/core/extensions/configuration)
