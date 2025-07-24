@@ -11,3 +11,20 @@ var configuration = new ConfigurationBuilder()
     .AddJsonFile($"appsettings.{environment}.json", optional: true, reloadOnChange: true)
     .AddEnvironmentVariables() // Ensure the correct using directive is added
     .Build();
+
+
+// Building Kernel
+var builder = Kernel.CreateBuilder();
+
+builder.AddAzureOpenAIChatCompletion(
+    deploymentName: configuration["AzureOpenAI:DeploymentName"]!,
+    endpoint: configuration["AzureOpenAI:Endpoint"]!,
+    apiKey: configuration["AzureOpenAI:ApiKey"]!
+);
+
+var kernel = builder.Build();
+
+// Optional: Log which environment and config files are being used
+Console.WriteLine($"Running in {environment} environment");
+
+
