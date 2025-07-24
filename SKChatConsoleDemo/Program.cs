@@ -27,7 +27,7 @@ var kernel = builder.Build();
 // Optional: Log which environment and config files are being used
 Console.WriteLine($"Running in {environment} environment");
 
-Console.WriteLine("Ask me anything – I’m all ears!................?");
+Console.WriteLine("Ask me anything – I’m all ears!");
 var question = Console.ReadLine();
 var response = kernel.InvokePromptAsync(question);
 Console.WriteLine(response);

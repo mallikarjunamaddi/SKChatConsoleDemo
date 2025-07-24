@@ -47,7 +47,7 @@ The application will:
 ### Example Interaction
 
 - Running in Development environment 
-- Ask me anything – I'm all ears!................? 
+- Ask me anything – I'm all ears!
 - What is the capital of France? 
 - The capital of France is Paris. It's the largest city in France and serves as the country's political, economic, and cultural center.
 
